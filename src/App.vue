@@ -26,4 +26,11 @@
     }
   }
 }
+a {
+  font-weight: bold;
+  color: #42b983;
+  &:hover{
+    color: #2c3e50;
+  }
+}
 </style>
