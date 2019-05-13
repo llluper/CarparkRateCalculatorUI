@@ -1,18 +1,18 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
+    <h1>Carpark Rate Calculator</h1>
+    <Calculator msg="Welcome to the Carpark Rate Calculator"/>
   </div>
 </template>
 
 <script lang="ts">
 import Vue from 'vue';
-import HelloWorld from '@/components/HelloWorld.vue'; // @ is an alias to /src
+import Calculator from '@/components/Calculator.vue';
 
 export default Vue.extend({
   name: 'home',
   components: {
-    HelloWorld,
+    Calculator,
   },
 });
 </script>
